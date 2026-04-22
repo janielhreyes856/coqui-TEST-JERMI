@@ -39,7 +39,7 @@
 </nav>
 
 <!-- ===== PAGE HERO ===== -->
-<section class="page-hero">
+<section class="page-hero"style="background: url('https://i.imgur.com/BCbei4q.png') center/cover no-repeat; position: relative;">
   <div class="page-hero-content">
     <span class="section-eyebrow" style="color:rgba(255,255,255,0.7)">We'd love to hear from you</span>
     <h1 class="section-title white">Get In Touch</h1>
@@ -169,9 +169,15 @@
   </div>
 </section>
 
+
 <!-- ===== FOOTER ===== -->
-<footer>
-  <div class="footer-top">
+<footer style="position: relative; background: url('https://i.imgur.com/BCbei4q.png') center/cover no-repeat;">
+
+  <!-- dark overlay for readability -->
+  <div style="position:absolute; inset:0; background: rgba(0,0,0,0.6);"></div>
+
+  <div class="footer-top" style="position: relative; z-index: 2;">
+    
     <div class="footer-logo-area">
       <div style="display:flex;align-items:center;gap:12px">
         <div class="nav-logo-circle" style="width:54px;height:54px;font-size:1.6rem">🐸</div>
@@ -184,6 +190,7 @@
         <div class="social-icon">♪</div>
       </div>
     </div>
+
     <div class="footer-col">
       <h4>Quick Links</h4>
       <ul>
@@ -194,23 +201,28 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
+
     <div class="footer-col">
       <h4>Hours</h4>
       <div class="footer-hours-item"><span class="day">Mon – Thu</span><span class="time">11:00 AM – 9:00 PM</span></div>
       <div class="footer-hours-item"><span class="day">Fri – Sat</span><span class="time">11:00 AM – 10:00 PM</span></div>
       <div class="footer-hours-item"><span class="day">Sunday</span><span class="time">11:00 AM – 8:00 PM</span></div>
     </div>
+
     <div class="footer-col">
       <h4>Visit Us</h4>
       <div class="footer-contact-item"><span class="icon">📍</span><p>123 Coqui Way<br>Orlando, FL 32801</p></div>
       <div class="footer-contact-item"><span class="icon">📞</span><p>(407) 555-COQU</p></div>
       <div class="footer-contact-item"><span class="icon">✉</span><p>info@coquieats.com</p></div>
     </div>
+
   </div>
-  <div class="footer-bottom">
+
+  <div class="footer-bottom" style="position: relative; z-index: 2;">
     <p>©2024 Coqui Eats. All rights reserved.</p>
     <span class="footer-flag">🇵🇷</span>
   </div>
+
 </footer>
 
 <script src="script.js"></script>
